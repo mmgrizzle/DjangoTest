@@ -30,6 +30,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AppTest\admin.py" />
+    <Compile Include="AppTest\apps.py" />
+    <Compile Include="AppTest\migrations\__init__.py" />
+    <Compile Include="AppTest\models.py" />
+    <Compile Include="AppTest\tests.py" />
+    <Compile Include="AppTest\views.py" />
+    <Compile Include="AppTest\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="DjangoTest\__init__.py" />
     <Compile Include="DjangoTest\settings.py" />
@@ -37,9 +44,14 @@
     <Compile Include="DjangoTest\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppTest\templates\AppTest\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="AppTest\" />
+    <Folder Include="AppTest\migrations\" />
+    <Folder Include="AppTest\templates\" />
+    <Folder Include="AppTest\templates\AppTest\" />
     <Folder Include="DjangoTest\" />
   </ItemGroup>
   <ItemGroup>
